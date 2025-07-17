@@ -1,0 +1,44 @@
+title-text: "" 
+desktop-image: "GTAVTHEME.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-border: "15"
+terminal-width: "70%"
+terminal-height: "50%"
+
+# Boot Menu Settings
++ boot_menu {
+  left = 7%
+  top = 36%
+  width = 30%
+  height = 43%
+  item_color = "#000000"  
+  item_font = "cartoon sq 21"  
+  selected_item_font = "cartoon sq 50"  
+  selected_item_color ="#118B50"  
+  icon_width = 48  
+  icon_height = 48
+  item_icon_space = 15
+  item_height = 35
+  item_padding = 2
+  item_spacing = 20
+  selected_item_pixmap_style = "rap_*.png"    
+  selected_item_border = "15 #118B50 solid"
+  item_text_align = "right"
+}
+
+# Progress Bar Settings
++ progress_bar {
+  id = "__timeout__"
+  left = 0%
+  top = 87%
+  height = 2%  
+  width = 100%
+  font = "cartoon sq 12 
+  text_color = "#000000"  
+  fg_color = "#4C3BCF"  
+  border_color = "#000000"
+  bg_color = "#1E1E2F"  
+  text = "Booting Your GTA in %d seconds..."
+  text_align = "right"
+}
